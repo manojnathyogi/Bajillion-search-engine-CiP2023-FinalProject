@@ -22,7 +22,11 @@ The Bajillion Search Engine is a small-scale, text-based search engine developed
    - Run the command `python searchengine.py small` to build the index from documents in the specified directory.
    - To search, use the command `python searchengine.py small -s` and follow the prompts to enter search queries.
 
-3. **Using the Search Engine**:
+3. **Using the Web Interface
+   - Start the server using python SimpleServer.py.
+   - Open a web browser and navigate to http://localhost:8000 to use the search engine through the web interface.
+
+4. **Using the Search Engine**:
    - Enter a search query after the prompt. The engine will display files containing the terms from the query.
    - Press "Enter" with an empty query to exit the search mode.
 
